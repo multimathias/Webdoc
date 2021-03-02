@@ -2,3 +2,73 @@
  * file: style.css
  * purpose: styles, animation etc
  **/
+/* TO INSERT FONT "POPPINS"- font-family: 'Poppins', sans-serif; */
+/* TO INSERT FONT "LOBSTER"- font-family: 'Lobster', cursive; */
+/* TO INSERT FONT "MONTSERRAT"- font-family: 'Montserrat', sans-serif; */
+
+/* Basic CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F3F3;
+}
+
+
+
+
+.page_body {
+    max-width: 100%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+/*---- HEADER ------*/
+header {
+    text-align: center;
+    background-color: #E1067A;
+    font-family: 'Poppins', sans-serif;
+    color: #161616;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+/*---- INTRO SCREEN ------*/
+.intro_img {
+    max-width: 100%;
+    position: absolute;
+}
+
+.intro_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    z-index: 99;
+    font-size: 3.5rem;
+    position: absolute;
+    color: #EBF2F2;
+    margin-left: 80px;
+    margin-top: 230px;
+}
+
+.intro_logo {
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    position: absolute;
+    z-index: 98;
+    color: #EBF2F2;
+    margin-left: 160px;
+    margin-top: 300px;
+}
