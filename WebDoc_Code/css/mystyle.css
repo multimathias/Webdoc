@@ -61,6 +61,7 @@ header {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 40px;
+    padding-top: 40px;
 }
 
 .button_showcase {
@@ -70,9 +71,17 @@ header {
 }
 
 .showcase_img {
-    width: 150px;
+    width: 120px;
     height: auto;
     margin: 0 55px;
+    animation-name: bottleZoom;
+    animation-duration: .2s;
+    transition: transform .2s;
+}
+
+
+.showcase_img:hover {
+  transform: scale(1.2); 
 }
 
 .button_left {
@@ -100,6 +109,8 @@ header {
     border-radius: 50px;
     text-align: center;
 }
+
+
 
 /*---- INFO SECTION ------*/
 .info_card_group {
@@ -141,7 +152,25 @@ header {
 
 /*---- LIVE TIME ------*/
 
+.time_sign {
+    background-color: #161616;
+    text-align: center;
+    border-top: solid 5px #E1067A;
+}
 
+.time_header {
+    color: #E1067A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.status_display {
+    color: #EBF2F2;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
 
 
 
