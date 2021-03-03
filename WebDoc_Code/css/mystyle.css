@@ -139,6 +139,16 @@ header {
 
 }
 
+/*---- LIVE TIME ------*/
+
+
+
+
+
+
+
+
+
 /*---- ORDER TUTORIAL ------*/
 .order_tutorial_header {
     background-color: #EBF2F2;
@@ -151,6 +161,7 @@ header {
     display: flex;
     flex-direction: row;
     margin-left: 270px;
+    margin-bottom: 35px;
 }
 
 .order_tutorial {
@@ -172,11 +183,62 @@ header {
 }
 
 /*---- VIDEO DRINK TUTORIALS ------*/
+.drink_mix_section {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.drink_tutorial_header {
+    color: #E1067A;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    padding: 40px 20px;
+    text-align: left;
+}
+
+.drink_name {
+    color: #EBF2F2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.video_tutorial {
+    width: 700px;
+    border: solid 10px #EBF2F2;
+}
+
+.drink_mix_section {
+    background-color: #161616;
+}
+
+.control_button {
+    background-color: #EBF2F2;
+    border-radius: 25px;
+    width: 5%;
+    height: auto;
+    padding: 20px;
+}
+
+.CTA_more {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    color: #0C0C23;
+    border: solid 3px #E1067A;
+    padding: 15px 50px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #EBF2F2;
+
+}
 
 /*---- FINAL SCENE ------*/
 .ending_scene {
-    margin-top: 35px;
+    margin-top: 0;
 }
+
 .party_img {
     width: 100%;
     height: auto;
