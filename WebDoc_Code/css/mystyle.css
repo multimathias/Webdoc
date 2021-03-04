@@ -81,7 +81,7 @@ header {
 
 
 .showcase_img:hover {
-  transform: scale(1.2); 
+    transform: scale(1.2);
 }
 
 .button_left {
@@ -260,6 +260,12 @@ header {
     border-radius: 50px;
     text-align: center;
     background-color: #EBF2F2;
+
+}
+
+.PH_message {
+    color: #EBF2F2;
+    font-size: 1rem;
 
 }
 
